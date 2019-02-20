@@ -1,11 +1,13 @@
 h1{
 background-color:rgb(248, 155, 170);
 color: white;
-padding: 20px
+padding: 20px;
 }
 p{
     color: red;
     font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .roml{
@@ -15,11 +17,20 @@ text-decoration: none;
 
 .redt{
     color: red;
-    text-align: center;
-    border:5px solid palevioletred;
+    border:3px solid  rgb(248, 155, 170);   
     font-size: 60px;
-    margin-left: 40px
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
 }
 .shimmer{
-    background-color: rgb(248, 155, 170)
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: rgb(248, 155, 170);
+}
+
+.pic{
+    display: flex;
+   justify-content: center;
 }
