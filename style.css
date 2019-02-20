@@ -26,8 +26,10 @@ text-decoration: none;
 }
 .shimmer{
     padding: 20px;
+    display: flex;
     background-color: rgb(248, 155, 170);
 }
+
 
 .pic{
     display: flex;
